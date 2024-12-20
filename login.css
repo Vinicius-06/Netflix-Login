@@ -1,0 +1,156 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(images/fundo1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    position: relative;
+}
+
+main {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center; 
+    color: white;
+}
+
+
+.container{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 80vh;
+    width: 30%;
+}
+
+h1{
+    margin-top: 0.5em;
+    font-size: 3.5em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: red;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1px;
+    width: 100%;
+}
+
+label, input{
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+
+
+input:hover{
+    background-color: #ccc;
+}
+
+.btn1{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: red;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1.4em;
+    margin-top: 0.5em;
+    width: 75%;
+    border-radius: 7px;
+    transition: transform 0.5s ease;
+}
+
+.btn1:hover{
+    transform: scale(1.07);
+}
+
+.lembrar{
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 0.5em;
+    font-size: 1.5em;
+    justify-content: space-between;
+}
+
+.suporte a{
+    text-decoration: none;
+    color: rgb(204, 24, 24);
+}
+
+.cadastre-se{
+    display: flex;
+    margin-top: 2em;
+    margin-left: 50px;
+    gap: 1em;
+}
+
+.btn2{
+    cursor: pointer;
+    padding: 8px 10px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    transition: transform 0.5s ease;
+}
+
+.btn2:hover{
+    transform: scale(1.2);
+}
+
+
+
+.lembrar-marcado input[type="checkbox"] {
+    transform: scale(2);
+}
+
+.footer-login{
+    display: flex;
+}
+
+.container-robo{
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5em;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 10px;
+    /* font-size: 2em; */
+}
+
+.footer-login span{
+    text-align: center;
+    font-size: 1.5em;
+    margin-left: 10px;
+    margin-top: 0.8em;
+}
+
+.footer-login input[type="checkbox"] {
+    transform: scale(2);
+    margin-left: 20em;
+    margin: 10px;
+}
+
+.container-robo img{
+    width: 20%;
+}
